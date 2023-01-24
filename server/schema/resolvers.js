@@ -37,6 +37,7 @@ const resolvers = {
 
 
 // mutation used to modify data (put, delete, post);
+// fields must match what we defined in the mutatotion type
   Mutation: {
     createUser: (parent, args) => {
       const user = args.input;
